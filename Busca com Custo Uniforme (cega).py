@@ -1,3 +1,5 @@
+import heapq
+
 def busca_custo_uniforme(grafo, inicio, objetivo):
     visitados = set()
     fila_prioritaria = [(0, inicio, [])]
